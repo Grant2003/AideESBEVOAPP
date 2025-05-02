@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35527.113 d17.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LabAEC", "LabAEC\LabAEC.csproj", "{4CE28E23-5D19-4E38-BC5E-D8D556B338BE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{902FE0B1-9DF8-4A02-8C0D-CEABECE62B22}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DataAccess", "DataAccess", "{381DD937-B105-4C69-A072-A108B8D42C50}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BusinessLogic", "BusinessLogic", "{80E7C52C-5058-47B6-BA59-070AACAF1629}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAL", "DAL\DAL.csproj", "{6A630E4E-7A03-4D83-B643-BA3E46A26A0C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BLL", "BLL\BLL.csproj", "{E68D47C9-5543-4B25-82F4-53BD71ED9B23}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4CE28E23-5D19-4E38-BC5E-D8D556B338BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4CE28E23-5D19-4E38-BC5E-D8D556B338BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4CE28E23-5D19-4E38-BC5E-D8D556B338BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4CE28E23-5D19-4E38-BC5E-D8D556B338BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6A630E4E-7A03-4D83-B643-BA3E46A26A0C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A630E4E-7A03-4D83-B643-BA3E46A26A0C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A630E4E-7A03-4D83-B643-BA3E46A26A0C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A630E4E-7A03-4D83-B643-BA3E46A26A0C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E68D47C9-5543-4B25-82F4-53BD71ED9B23}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E68D47C9-5543-4B25-82F4-53BD71ED9B23}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E68D47C9-5543-4B25-82F4-53BD71ED9B23}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E68D47C9-5543-4B25-82F4-53BD71ED9B23}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4CE28E23-5D19-4E38-BC5E-D8D556B338BE} = {902FE0B1-9DF8-4A02-8C0D-CEABECE62B22}
+	EndGlobalSection
+EndGlobal

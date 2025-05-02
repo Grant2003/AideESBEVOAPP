@@ -1,0 +1,86 @@
+﻿<UserControl x:Class="WpfApp1.UCModifOuSuppPart"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:WpfApp1"
+             mc:Ignorable="d" 
+             Loaded="onLoaded_event"
+             d:DesignHeight="300" d:DesignWidth="800">
+    <UserControl.Resources>
+
+    </UserControl.Resources>
+    <Canvas>
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="2*"></ColumnDefinition>
+                <ColumnDefinition Width="3*"></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+
+            <Grid.RowDefinitions>
+                <RowDefinition Height="25"></RowDefinition>
+                <RowDefinition Height="25"></RowDefinition>
+                <RowDefinition Height="25"></RowDefinition>
+                <RowDefinition Height="25"></RowDefinition>
+                <RowDefinition Height="25"></RowDefinition>
+                <RowDefinition Height="25"></RowDefinition>
+                <RowDefinition Height="25"></RowDefinition>
+                <RowDefinition Height="25"></RowDefinition>
+                <RowDefinition Height="25"></RowDefinition>
+                <RowDefinition Height="25"></RowDefinition>
+
+            </Grid.RowDefinitions>
+
+            <TextBlock Text="Modification ou suppression d'un participant" FontWeight="Bold"
+               FontSize="16" Grid.ColumnSpan="2" HorizontalAlignment="Center"/>
+
+            <Label Content="Matricule:" Grid.Row="1" Margin="1"></Label>
+            <ComboBox SelectionChanged="CbMat_SelectionChanged" Name="cbMatricule" Width="150" Grid.Row="1" Grid.Column="2" 
+             HorizontalAlignment="Left" Margin="1">
+                <ComboBox.ItemTemplate>
+                    <DataTemplate>
+                        <Label Content="{Binding Matricule}"></Label>
+                    </DataTemplate>
+                </ComboBox.ItemTemplate>
+            </ComboBox>
+            <Label Content="Nom:" Grid.Row="2" Margin="1"></Label>
+            <TextBox Name="tbNom" Width="150" Grid.Row="2" Grid.Column="2" 
+             HorizontalAlignment="Left" Margin="1"></TextBox>
+            <Label Content="Prénom:" Grid.Row="3" Margin="1"></Label>
+            <TextBox Name="tbPrenom" Width="150" Grid.Row="3" Grid.Column="2" 
+             HorizontalAlignment="Left" Margin="1"></TextBox>
+
+            <Label Content="Genre:" Grid.Row="4" Margin="1"></Label>
+            <ComboBox Name="cbGenre" Grid.Row="4" Grid.Column="2" Width="150"
+              HorizontalAlignment="Left" Margin="1">
+                <ComboBoxItem>M</ComboBoxItem>
+                <ComboBoxItem>F</ComboBoxItem>
+            </ComboBox>
+            <Label Content="Niveau:" Grid.Row="5" Margin="1"></Label>
+            <ComboBox Name="cbNiveau" Grid.Row="5" Grid.Column="2" Width="150"
+              HorizontalAlignment="Left" Margin="1">
+                <ComboBoxItem>Débutant</ComboBoxItem>
+                <ComboBoxItem>Intermédiraire</ComboBoxItem>
+                <ComboBoxItem>Professionnel</ComboBoxItem>
+            </ComboBox>
+            <Label Content="Email:" Grid.Row="6" Margin="1"></Label>
+            <TextBox Name="tbEmail" Width="150" Grid.Row="6" Grid.Column="2" 
+      HorizontalAlignment="Left" Margin="1"></TextBox>
+            <Label Content="IsActif:" Grid.Row="7" Margin="1"></Label>
+            <CheckBox Name="CkIsActif" Width="150" Grid.Row="7" Grid.Column="2" HorizontalAlignment="Left"></CheckBox>
+
+            <StackPanel Orientation="Horizontal" Grid.Row="8" HorizontalAlignment="Center">
+                <Button Content="Modifier"  Width="100" Margin="0,5,0,0"
+            Click="Click_Modifier"></Button>
+                <Button Content="Supprimer"  Width="100" Margin="0,5,0,0"
+            Click="Click_Supprimer"></Button>
+            </StackPanel>
+
+            <Button Content="Annuler (Revenir)" Grid.Row="9" Grid.ColumnSpan="2" Width="100" Margin="0,5,0,0"
+            Click="Click_Annuler"></Button>
+
+
+        </Grid>
+    </Canvas>
+    
+</UserControl>

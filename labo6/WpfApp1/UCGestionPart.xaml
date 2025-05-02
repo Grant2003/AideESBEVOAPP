@@ -1,0 +1,115 @@
+﻿<UserControl x:Class="WpfApp1.UCGestionPart"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:WpfApp1"
+             xmlns:GenreEnum="clr-namespace:System;assembly=mscorlib"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800">
+
+    <UserControl.Resources>
+        <Style TargetType="Button">
+            <Setter Property="Foreground" Value="DarkBlue"/>
+            <Setter Property="Width" Value="100"/>
+            <Setter Property="Height" Value="25"/>
+        </Style>
+
+        <!-- Définition d'un controltemplate pour changer l'apparence d'un bouton -->
+        <ControlTemplate x:Key="EllipseButtonTemplate" TargetType="Button">
+            <Grid>
+                <Ellipse Name="ButtonEllipse" Fill="Orange"/>
+                <ContentPresenter Content="{TemplateBinding Content}"
+                                  HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            </Grid>
+        </ControlTemplate>
+
+        <ControlTemplate x:Key="RadiusButtonTemplate" TargetType="Button">
+            <Grid>
+                <Border Name="BaseRectangle" Background="LightBlue" CornerRadius="10,0,10,0"/>
+                <ContentPresenter Content="{TemplateBinding Content}"
+                                  HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            </Grid>
+        </ControlTemplate>
+
+        <ControlTemplate x:Key="CustomButtonTemplate" TargetType="Button">
+            <Grid>
+                <Rectangle x:Name="ButtonRectangle" Fill="CadetBlue" RadiusX="5" RadiusY="5"/>
+                <TextBlock x:Name="ButtonTextBlock" Text="{TemplateBinding Content}" Foreground="White" 
+                           HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            </Grid>
+            <!-- ControlTemplate sur activé par un déclancheur -->
+            <ControlTemplate.Triggers>
+                <Trigger Property="IsMouseOver" Value="True">
+                    <Setter TargetName="ButtonRectangle" Property="Fill" Value="Navy"/>
+                </Trigger>
+            </ControlTemplate.Triggers>
+        </ControlTemplate>
+
+
+        <!-- Une ressource pour utilis­é une eminumeration -->
+        <ObjectDataProvider x:Key="ObjectDataProviderGenre" ObjectType="{x:Type GenreEnum:Enum}" MethodName="GetNames">
+            <ObjectDataProvider.MethodParameters>
+                <x:Type TypeName="local:Genre"/>
+            </ObjectDataProvider.MethodParameters>
+        </ObjectDataProvider>
+
+        <ObjectDataProvider x:Key="ObjectDataProviderNiveau" ObjectType="{x:Type GenreEnum:Enum}" MethodName="GetNames">
+            <ObjectDataProvider.MethodParameters>
+                <x:Type TypeName="local:Niveau"/>
+            </ObjectDataProvider.MethodParameters>
+        </ObjectDataProvider>
+    </UserControl.Resources>
+
+
+    <DockPanel Margin="10">
+        <StackPanel DockPanel.Dock="Right" Margin="10,0,0,0">
+            <Button Name="btnAjoutPart" Content="Ajouter" Margin="0,5" 
+                    Click="BtnAjouterPart_Click" Template="{StaticResource EllipseButtonTemplate}"/>
+            <Button Name="btnModSupp" Content="Modifier/Supprimer" Margin="0,5" 
+                    Click="BtnModSup_Click" Template="{StaticResource RadiusButtonTemplate}"/>
+            <Button Name="btnModifierPart" Content="Modifier" Margin="0,5" 
+                    Click="BtnModifierPart_Click" Template="{StaticResource RadiusButtonTemplate}"/>
+            <Button Name="btnSuppPart" Content="Supprimer" Margin="0,5" 
+                    Click="BtnSuppPart_Click" Template="{StaticResource CustomButtonTemplate}"/>
+            <Button Name="btnListView" Content="ListViewUI" Margin="0,5" 
+                    Click="BtnListView_Click" Template="{StaticResource CustomButtonTemplate}"/>
+            <Button Name="btnQuitter" Content="Quitter" Margin="0,5" 
+                    Click="BtnQuitter_Click" Template="{StaticResource CustomButtonTemplate}"/>
+        </StackPanel>
+
+        <DataGrid Name="dgParticipants" VerticalAlignment="Top" HorizontalAlignment="Left"
+                  MouseDoubleClick="LigneDg_dblClick"
+                  AutoGenerateColumns="False"  RowBackground="Khaki" AlternatingRowBackground="Lavender">
+
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Matricule" Width="*" Binding="{Binding Matricule}"/>
+                <DataGridTextColumn Header="Prénom" Width="2*" Binding="{Binding Prenom}"/>
+                <DataGridTextColumn Header="Nom" Width="2*" Binding="{Binding Nom}"/>
+
+                <DataGridComboBoxColumn Header="Genre" Width="*" 
+                                        TextBinding="{Binding Genre}"
+                                        ItemsSource="{Binding Source={StaticResource ObjectDataProviderGenre}}"/>
+                <DataGridComboBoxColumn Header="Niveau" Width="2*"
+                                        TextBinding="{Binding Niveau}"
+                                        ItemsSource="{Binding Source={StaticResource ObjectDataProviderNiveau}}" />
+
+                <!--<DataGridTextColumn Header="Email" Width="2*" Binding="{Binding Email}"/>-->
+                <DataGridCheckBoxColumn Header="IsActif" Width="*" Binding="{Binding IsActif}"/>
+
+            </DataGrid.Columns>
+
+            <!--Data suplémentaire cacher et afficher lorsque l'on click-->
+            <DataGrid.RowDetailsTemplate>
+                <DataTemplate>
+                    <WrapPanel>
+                        <TextBlock Text="Email: "/>
+                        <TextBlock Text="{Binding Email}"/>
+                    </WrapPanel>
+                </DataTemplate>
+            </DataGrid.RowDetailsTemplate>
+
+
+        </DataGrid>
+    </DockPanel>
+</UserControl>
