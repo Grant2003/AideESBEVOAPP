@@ -1,0 +1,38 @@
+[
+  {
+    "Mois": "Janvier",
+    "ChiffreAffaire": 14826,
+    "TauxMarge": 41.5,
+    "MargeBrute": 6152.79
+  },
+  {
+    "Mois": "Février",
+    "ChiffreAffaire": 21365,
+    "TauxMarge": 42,
+    "MargeBrute": 8973.3
+  },
+  {
+    "Mois": "Mars",
+    "ChiffreAffaire": 28413,
+    "TauxMarge": 42.5,
+    "MargeBrute": 12075.52
+  },
+  {
+    "Mois": "Avril",
+    "ChiffreAffaire": 50052,
+    "TauxMarge": 44,
+    "MargeBrute": 22022.88
+  },
+  {
+    "Mois": "Mai",
+    "ChiffreAffaire": 78630,
+    "TauxMarge": 46,
+    "MargeBrute": 36169.8
+  },
+  {
+    "Mois": "Juin",
+    "ChiffreAffaire": 100254,
+    "TauxMarge": 45.5,
+    "MargeBrute": 45615.57
+  }
+]

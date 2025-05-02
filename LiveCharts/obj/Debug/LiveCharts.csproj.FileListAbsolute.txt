@@ -1,0 +1,65 @@
+D:\James\evo-des-apps\EvoDesApps\07-UserControl\Exemple\LiveCharts\obj\Debug\LiveCharts.csproj.AssemblyReference.cache
+D:\James\evo-des-apps\EvoDesApps\07-UserControl\Exemple\LiveCharts\obj\Debug\MainWindow.g.cs
+D:\James\evo-des-apps\EvoDesApps\07-UserControl\Exemple\LiveCharts\obj\Debug\App.g.cs
+D:\James\evo-des-apps\EvoDesApps\07-UserControl\Exemple\LiveCharts\bin\Debug\ProjetLiveCharts.exe.config
+D:\James\evo-des-apps\EvoDesApps\07-UserControl\Exemple\LiveCharts\bin\Debug\ProjetLiveCharts.exe
+D:\James\evo-des-apps\EvoDesApps\07-UserControl\Exemple\LiveCharts\bin\Debug\ProjetLiveCharts.pdb
+D:\James\evo-des-apps\EvoDesApps\07-UserControl\Exemple\LiveCharts\bin\Debug\LiveCharts.dll
+D:\James\evo-des-apps\EvoDesApps\07-UserControl\Exemple\LiveCharts\bin\Debug\LiveCharts.Wpf.dll
+D:\James\evo-des-apps\EvoDesApps\07-UserControl\Exemple\LiveCharts\bin\Debug\LiveCharts.pdb
+D:\James\evo-des-apps\EvoDesApps\07-UserControl\Exemple\LiveCharts\bin\Debug\LiveCharts.xml
+D:\James\evo-des-apps\EvoDesApps\07-UserControl\Exemple\LiveCharts\bin\Debug\LiveCharts.Wpf.pdb
+D:\James\evo-des-apps\EvoDesApps\07-UserControl\Exemple\LiveCharts\bin\Debug\LiveCharts.Wpf.xml
+D:\James\evo-des-apps\EvoDesApps\07-UserControl\Exemple\LiveCharts\obj\Debug\ProjetLiveCharts_MarkupCompile.cache
+D:\James\evo-des-apps\EvoDesApps\07-UserControl\Exemple\LiveCharts\obj\Debug\ProjetLiveCharts_MarkupCompile.lref
+D:\James\evo-des-apps\EvoDesApps\07-UserControl\Exemple\LiveCharts\obj\Debug\MainWindow.baml
+D:\James\evo-des-apps\EvoDesApps\07-UserControl\Exemple\LiveCharts\obj\Debug\ProjetLiveCharts.g.resources
+D:\James\evo-des-apps\EvoDesApps\07-UserControl\Exemple\LiveCharts\obj\Debug\ProjetLiveCharts.Properties.Resources.resources
+D:\James\evo-des-apps\EvoDesApps\07-UserControl\Exemple\LiveCharts\obj\Debug\LiveCharts.csproj.GenerateResource.cache
+D:\James\evo-des-apps\EvoDesApps\07-UserControl\Exemple\LiveCharts\obj\Debug\LiveCharts.csproj.CoreCompileInputs.cache
+D:\James\evo-des-apps\EvoDesApps\07-UserControl\Exemple\LiveCharts\obj\Debug\LiveCharts.csproj.Up2Date
+D:\James\evo-des-apps\EvoDesApps\07-UserControl\Exemple\LiveCharts\obj\Debug\ProjetLiveCharts.exe
+D:\James\evo-des-apps\EvoDesApps\07-UserControl\Exemple\LiveCharts\obj\Debug\ProjetLiveCharts.pdb
+C:\Users\2071623\Downloads\LiveCharts\LiveCharts\bin\Debug\ProjetLiveCharts.exe.config
+C:\Users\2071623\Downloads\LiveCharts\LiveCharts\bin\Debug\ProjetLiveCharts.exe
+C:\Users\2071623\Downloads\LiveCharts\LiveCharts\bin\Debug\ProjetLiveCharts.pdb
+C:\Users\2071623\Downloads\LiveCharts\LiveCharts\bin\Debug\Newtonsoft.Json.dll
+C:\Users\2071623\Downloads\LiveCharts\LiveCharts\bin\Debug\LiveCharts.pdb
+C:\Users\2071623\Downloads\LiveCharts\LiveCharts\bin\Debug\LiveCharts.xml
+C:\Users\2071623\Downloads\LiveCharts\LiveCharts\bin\Debug\LiveCharts.Wpf.pdb
+C:\Users\2071623\Downloads\LiveCharts\LiveCharts\bin\Debug\LiveCharts.Wpf.xml
+C:\Users\2071623\Downloads\LiveCharts\LiveCharts\bin\Debug\Newtonsoft.Json.xml
+C:\Users\2071623\Downloads\LiveCharts\LiveCharts\obj\Debug\LiveCharts.csproj.AssemblyReference.cache
+C:\Users\2071623\Downloads\LiveCharts\LiveCharts\obj\Debug\MainWindow.g.cs
+C:\Users\2071623\Downloads\LiveCharts\LiveCharts\obj\Debug\App.g.cs
+C:\Users\2071623\Downloads\LiveCharts\LiveCharts\obj\Debug\ProjetLiveCharts_MarkupCompile.cache
+C:\Users\2071623\Downloads\LiveCharts\LiveCharts\obj\Debug\ProjetLiveCharts_MarkupCompile.lref
+C:\Users\2071623\Downloads\LiveCharts\LiveCharts\obj\Debug\MainWindow.baml
+C:\Users\2071623\Downloads\LiveCharts\LiveCharts\obj\Debug\ProjetLiveCharts.g.resources
+C:\Users\2071623\Downloads\LiveCharts\LiveCharts\obj\Debug\ProjetLiveCharts.Properties.Resources.resources
+C:\Users\2071623\Downloads\LiveCharts\LiveCharts\obj\Debug\LiveCharts.csproj.GenerateResource.cache
+C:\Users\2071623\Downloads\LiveCharts\LiveCharts\obj\Debug\LiveCharts.csproj.CoreCompileInputs.cache
+C:\Users\2071623\Downloads\LiveCharts\LiveCharts\obj\Debug\LiveCharts.csproj.Up2Date
+C:\Users\2071623\Downloads\LiveCharts\LiveCharts\obj\Debug\ProjetLiveCharts.exe
+C:\Users\2071623\Downloads\LiveCharts\LiveCharts\obj\Debug\ProjetLiveCharts.pdb
+C:\Users\grean\Downloads\LiveCharts 1\LiveCharts\LiveCharts\bin\Debug\ProjetLiveCharts.exe.config
+C:\Users\grean\Downloads\LiveCharts 1\LiveCharts\LiveCharts\bin\Debug\ProjetLiveCharts.exe
+C:\Users\grean\Downloads\LiveCharts 1\LiveCharts\LiveCharts\bin\Debug\ProjetLiveCharts.pdb
+C:\Users\grean\Downloads\LiveCharts 1\LiveCharts\LiveCharts\bin\Debug\LiveCharts.pdb
+C:\Users\grean\Downloads\LiveCharts 1\LiveCharts\LiveCharts\bin\Debug\LiveCharts.xml
+C:\Users\grean\Downloads\LiveCharts 1\LiveCharts\LiveCharts\bin\Debug\LiveCharts.Wpf.pdb
+C:\Users\grean\Downloads\LiveCharts 1\LiveCharts\LiveCharts\bin\Debug\LiveCharts.Wpf.xml
+C:\Users\grean\Downloads\LiveCharts 1\LiveCharts\LiveCharts\bin\Debug\Newtonsoft.Json.xml
+C:\Users\grean\Downloads\LiveCharts 1\LiveCharts\LiveCharts\obj\Debug\LiveCharts.csproj.AssemblyReference.cache
+C:\Users\grean\Downloads\LiveCharts 1\LiveCharts\LiveCharts\obj\Debug\MainWindow.g.cs
+C:\Users\grean\Downloads\LiveCharts 1\LiveCharts\LiveCharts\obj\Debug\App.g.cs
+C:\Users\grean\Downloads\LiveCharts 1\LiveCharts\LiveCharts\obj\Debug\ProjetLiveCharts_MarkupCompile.cache
+C:\Users\grean\Downloads\LiveCharts 1\LiveCharts\LiveCharts\obj\Debug\ProjetLiveCharts_MarkupCompile.lref
+C:\Users\grean\Downloads\LiveCharts 1\LiveCharts\LiveCharts\obj\Debug\MainWindow.baml
+C:\Users\grean\Downloads\LiveCharts 1\LiveCharts\LiveCharts\obj\Debug\ProjetLiveCharts.g.resources
+C:\Users\grean\Downloads\LiveCharts 1\LiveCharts\LiveCharts\obj\Debug\ProjetLiveCharts.Properties.Resources.resources
+C:\Users\grean\Downloads\LiveCharts 1\LiveCharts\LiveCharts\obj\Debug\LiveCharts.csproj.GenerateResource.cache
+C:\Users\grean\Downloads\LiveCharts 1\LiveCharts\LiveCharts\obj\Debug\LiveCharts.csproj.CoreCompileInputs.cache
+C:\Users\grean\Downloads\LiveCharts 1\LiveCharts\LiveCharts\obj\Debug\LiveCharts.csproj.Up2Date
+C:\Users\grean\Downloads\LiveCharts 1\LiveCharts\LiveCharts\obj\Debug\ProjetLiveCharts.exe
+C:\Users\grean\Downloads\LiveCharts 1\LiveCharts\LiveCharts\obj\Debug\ProjetLiveCharts.pdb
