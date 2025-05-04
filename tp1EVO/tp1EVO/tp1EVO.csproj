@@ -1,0 +1,69 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="affiches\avengers.jpg" />
+    <None Remove="affiches\dark_knight.jpg" />
+    <None Remove="affiches\fight_club.jpg" />
+    <None Remove="affiches\forrest_gump.jpg" />
+    <None Remove="affiches\gladiator.jpg" />
+    <None Remove="affiches\godfather.jpg" />
+    <None Remove="affiches\inception.jpg" />
+    <None Remove="affiches\inglourious_basterds.jpg" />
+    <None Remove="affiches\interstellar.jpg" />
+    <None Remove="affiches\lion_king.jpg" />
+    <None Remove="affiches\lotr_fellowship.jpg" />
+    <None Remove="affiches\matrix.jpg" />
+    <None Remove="affiches\pulp_fiction.jpg" />
+    <None Remove="affiches\saving_private_ryan.jpg" />
+    <None Remove="affiches\se7en.jpg" />
+    <None Remove="affiches\shawshank_redemption.jpg" />
+    <None Remove="affiches\silence_of_lambs.jpg" />
+    <None Remove="affiches\star_wars_iv.jpg" />
+    <None Remove="affiches\titanic.jpg" />
+    <None Remove="affiches\toy_story.jpg" />
+    <None Remove="images\Actor.png" />
+    <None Remove="images\categorie.png" />
+    <None Remove="images\movie.png" />
+    <None Remove="images\propos.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="affiches\avengers.jpg" />
+    <Resource Include="affiches\dark_knight.jpg" />
+    <Resource Include="affiches\fight_club.jpg" />
+    <Resource Include="affiches\forrest_gump.jpg" />
+    <Resource Include="affiches\gladiator.jpg" />
+    <Resource Include="affiches\godfather.jpg" />
+    <Resource Include="affiches\inception.jpg" />
+    <Resource Include="affiches\inglourious_basterds.jpg" />
+    <Resource Include="affiches\interstellar.jpg" />
+    <Resource Include="affiches\lion_king.jpg" />
+    <Resource Include="affiches\lotr_fellowship.jpg" />
+    <Resource Include="affiches\matrix.jpg" />
+    <Resource Include="affiches\pulp_fiction.jpg" />
+    <Resource Include="affiches\saving_private_ryan.jpg" />
+    <Resource Include="affiches\se7en.jpg" />
+    <Resource Include="affiches\shawshank_redemption.jpg" />
+    <Resource Include="affiches\silence_of_lambs.jpg" />
+    <Resource Include="affiches\star_wars_iv.jpg" />
+    <Resource Include="affiches\titanic.jpg" />
+    <Resource Include="affiches\toy_story.jpg" />
+    <Resource Include="images\Actor.png" />
+    <Resource Include="images\categorie.png" />
+    <Resource Include="images\movie.png" />
+    <Resource Include="images\propos.png" />
+  </ItemGroup>
+
+</Project>

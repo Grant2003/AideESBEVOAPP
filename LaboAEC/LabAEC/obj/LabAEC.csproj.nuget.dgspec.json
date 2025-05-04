@@ -1,20 +1,19 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\2071623\\OneDrive - CEGEP de Saint-JEROME\\EvoApplications\\LabAEC\\LabAEC\\LabAEC.csproj": {}
+    "C:\\Users\\grean\\AideESBEVOAPP\\LaboAEC\\LabAEC\\LabAEC.csproj": {}
   },
   "projects": {
-    "C:\\Users\\2071623\\OneDrive - CEGEP de Saint-JEROME\\EvoApplications\\LabAEC\\BLL\\BLL.csproj": {
+    "C:\\Users\\grean\\AideESBEVOAPP\\LaboAEC\\BLL\\BLL.csproj": {
       "restore": {
-        "projectUniqueName": "C:\\Users\\2071623\\OneDrive - CEGEP de Saint-JEROME\\EvoApplications\\LabAEC\\BLL\\BLL.csproj",
+        "projectUniqueName": "C:\\Users\\grean\\AideESBEVOAPP\\LaboAEC\\BLL\\BLL.csproj",
         "projectName": "BLL",
-        "projectPath": "C:\\Users\\2071623\\OneDrive - CEGEP de Saint-JEROME\\EvoApplications\\LabAEC\\BLL\\BLL.csproj",
-        "UsingMicrosoftNETSdk": false,
+        "projectPath": "C:\\Users\\grean\\AideESBEVOAPP\\LaboAEC\\BLL\\BLL.csproj",
         "frameworks": {
           "net472": {
             "projectReferences": {
-              "C:\\Users\\2071623\\OneDrive - CEGEP de Saint-JEROME\\EvoApplications\\LabAEC\\DAL\\DAL.csproj": {
-                "projectPath": "C:\\Users\\2071623\\OneDrive - CEGEP de Saint-JEROME\\EvoApplications\\LabAEC\\DAL\\DAL.csproj"
+              "C:\\Users\\grean\\AideESBEVOAPP\\LaboAEC\\DAL\\DAL.csproj": {
+                "projectPath": "C:\\Users\\grean\\AideESBEVOAPP\\LaboAEC\\DAL\\DAL.csproj"
               }
             }
           }
@@ -24,12 +23,11 @@
         "net472": {}
       }
     },
-    "C:\\Users\\2071623\\OneDrive - CEGEP de Saint-JEROME\\EvoApplications\\LabAEC\\DAL\\DAL.csproj": {
+    "C:\\Users\\grean\\AideESBEVOAPP\\LaboAEC\\DAL\\DAL.csproj": {
       "restore": {
-        "projectUniqueName": "C:\\Users\\2071623\\OneDrive - CEGEP de Saint-JEROME\\EvoApplications\\LabAEC\\DAL\\DAL.csproj",
+        "projectUniqueName": "C:\\Users\\grean\\AideESBEVOAPP\\LaboAEC\\DAL\\DAL.csproj",
         "projectName": "DAL",
-        "projectPath": "C:\\Users\\2071623\\OneDrive - CEGEP de Saint-JEROME\\EvoApplications\\LabAEC\\DAL\\DAL.csproj",
-        "UsingMicrosoftNETSdk": false,
+        "projectPath": "C:\\Users\\grean\\AideESBEVOAPP\\LaboAEC\\DAL\\DAL.csproj",
         "frameworks": {
           "net472": {
             "projectReferences": {}
@@ -40,21 +38,17 @@
         "net472": {}
       }
     },
-    "C:\\Users\\2071623\\OneDrive - CEGEP de Saint-JEROME\\EvoApplications\\LabAEC\\LabAEC\\LabAEC.csproj": {
+    "C:\\Users\\grean\\AideESBEVOAPP\\LaboAEC\\LabAEC\\LabAEC.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\2071623\\OneDrive - CEGEP de Saint-JEROME\\EvoApplications\\LabAEC\\LabAEC\\LabAEC.csproj",
+        "projectUniqueName": "C:\\Users\\grean\\AideESBEVOAPP\\LaboAEC\\LabAEC\\LabAEC.csproj",
         "projectName": "LabAEC",
-        "projectPath": "C:\\Users\\2071623\\OneDrive - CEGEP de Saint-JEROME\\EvoApplications\\LabAEC\\LabAEC\\LabAEC.csproj",
-        "packagesPath": "C:\\Users\\2071623\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\2071623\\OneDrive - CEGEP de Saint-JEROME\\EvoApplications\\LabAEC\\LabAEC\\obj\\",
+        "projectPath": "C:\\Users\\grean\\AideESBEVOAPP\\LaboAEC\\LabAEC\\LabAEC.csproj",
+        "packagesPath": "C:\\Users\\grean\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\grean\\AideESBEVOAPP\\LaboAEC\\LabAEC\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\2071623\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\grean\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -68,8 +62,8 @@
           "net8.0-windows7.0": {
             "targetAlias": "net8.0-windows",
             "projectReferences": {
-              "C:\\Users\\2071623\\OneDrive - CEGEP de Saint-JEROME\\EvoApplications\\LabAEC\\BLL\\BLL.csproj": {
-                "projectPath": "C:\\Users\\2071623\\OneDrive - CEGEP de Saint-JEROME\\EvoApplications\\LabAEC\\BLL\\BLL.csproj"
+              "C:\\Users\\grean\\AideESBEVOAPP\\LaboAEC\\BLL\\BLL.csproj": {
+                "projectPath": "C:\\Users\\grean\\AideESBEVOAPP\\LaboAEC\\BLL\\BLL.csproj"
               }
             }
           }
@@ -83,8 +77,7 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        },
-        "SdkAnalysisLevel": "9.0.100"
+        }
       },
       "frameworks": {
         "net8.0-windows7.0": {
@@ -108,7 +101,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

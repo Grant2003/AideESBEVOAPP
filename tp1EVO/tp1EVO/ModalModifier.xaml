@@ -1,0 +1,68 @@
+﻿ <!--//Par Anthony Grenier 
+//Mat: 2071623-->
+    <Window x:Class="tp1EVO.ModalModifier"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:tp1EVO"
+        mc:Ignorable="d"
+        Title="Modifier Un Film" Height="375" Width="600"  Background="{StaticResource WindowBackgroundBrush}">
+    
+    <Grid>
+        <StackPanel x:Name="PanelAjouter">
+            <Grid Margin="10,10,10,15">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+
+                <StackPanel Grid.Column="0" Orientation="Vertical" Margin="10,10,10,15">
+                    <Label>Sélectionner les acteurs :</Label>
+                    <ListBox x:Name="ListBoxActeurs" 
+                         ItemsSource="{Binding ListeDActeurs}" 
+                         DisplayMemberPath="Nom" 
+                         SelectionMode="Multiple"
+                         Height="100" Width="200"
+                         HorizontalAlignment="Left"/>
+                </StackPanel>
+                <StackPanel Grid.Column="1" Orientation="Vertical" Margin="10,10,10,15">
+                    <Label Content="Sélectionner les catégories :" Width="200"/>
+                    <ListBox x:Name="ListBoxCategories" 
+                             ItemsSource="{Binding ListeCategories}" 
+                             DisplayMemberPath="Nom" 
+                             SelectionMode="Multiple"
+                             Height="100" Width="200" 
+                             SelectionChanged="ListBoxCategories_SelectionChanged"/>
+                </StackPanel>
+            </Grid>
+
+            <StackPanel>
+                
+            </StackPanel>
+            <StackPanel Orientation="Horizontal">
+                <Label Content="Année" Height="25" Width="100"></Label>
+                <TextBox x:Name="TxtBoxAnnee"  Height="25" Width="150" BorderBrush="Gray"></TextBox>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal">
+                <Label Content="Realisateur:" Height="25" Width="100"/>
+                <TextBox x:Name="TxtBoxReal" Height="25" Width="150" BorderBrush="Gray"></TextBox>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal">
+                <Label Content="Duration" Height="25" Width="100"></Label>
+                <TextBox x:Name="TxtBoxDuration"  Height="25" Width="150" BorderBrush="Gray"></TextBox>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal">
+                <Label Content="Synopsis" Height="25" Width="100"></Label>
+                <TextBox x:Name="TxtBoxSynopsis"  Height="25" Width="150" BorderBrush="Gray"></TextBox>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal">
+                <Button Template="{StaticResource CustomButtonTemplate}"  x:Name="BtnModifierFilm" Content="Modifier" Click="Click_BtnModifierFilm"  Width="100"
+                    Margin="150,20,10,0" HorizontalAlignment="Left"/>
+                <Button Template="{StaticResource CustomButtonTemplate}" x:Name="btnAnnuler" Content="Annuler" Click="Click_BtnAnnuler"  Width="100"
+                    Margin="0,20,10,0" HorizontalAlignment="Right"/>
+            </StackPanel>
+
+        </StackPanel>
+    </Grid>
+</Window>

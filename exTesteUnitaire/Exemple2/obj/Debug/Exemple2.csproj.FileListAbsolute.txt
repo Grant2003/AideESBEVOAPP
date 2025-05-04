@@ -1,0 +1,7 @@
+C:\Users\grean\AideESBEVOAPP\exTesteUnitaire\Exemple2\bin\Debug\Exemple2.exe.config
+C:\Users\grean\AideESBEVOAPP\exTesteUnitaire\Exemple2\bin\Debug\Exemple2.exe
+C:\Users\grean\AideESBEVOAPP\exTesteUnitaire\Exemple2\bin\Debug\Exemple2.pdb
+C:\Users\grean\AideESBEVOAPP\exTesteUnitaire\Exemple2\obj\Debug\Exemple2.csproj.AssemblyReference.cache
+C:\Users\grean\AideESBEVOAPP\exTesteUnitaire\Exemple2\obj\Debug\Exemple2.csproj.CoreCompileInputs.cache
+C:\Users\grean\AideESBEVOAPP\exTesteUnitaire\Exemple2\obj\Debug\Exemple2.exe
+C:\Users\grean\AideESBEVOAPP\exTesteUnitaire\Exemple2\obj\Debug\Exemple2.pdb

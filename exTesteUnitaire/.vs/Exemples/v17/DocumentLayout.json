@@ -1,9 +1,21 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\6181512\\ProgApplicationV2\\12-TestUnitaire\\Nouveau dossier\\Exemples\\",
+  "WorkspaceRootPath": "C:\\Users\\grean\\AideESBEVOAPP\\exTesteUnitaire\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9E3F3408-0F4F-48AD-BE6D-D1A1F1BECC62}|Tests_Exemple1\\Tests_Exemple1.csproj|d:\\6181512\\progapplicationv2\\12-testunitaire\\nouveau dossier\\exemples\\tests_exemple1\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{43BEB838-77F1-4846-9457-4B0EF7003A05}|Exemple4\\Exemple4.csproj|c:\\users\\grean\\aideesbevoapp\\extesteunitaire\\exemple4\\tests_exemple4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{43BEB838-77F1-4846-9457-4B0EF7003A05}|Exemple4\\Exemple4.csproj|solutionrelative:exemple4\\tests_exemple4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43BEB838-77F1-4846-9457-4B0EF7003A05}|Exemple4\\Exemple4.csproj|c:\\users\\grean\\aideesbevoapp\\extesteunitaire\\exemple4\\tests_exemple44.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{43BEB838-77F1-4846-9457-4B0EF7003A05}|Exemple4\\Exemple4.csproj|solutionrelative:exemple4\\tests_exemple44.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8BE9422-A9FA-4E18-84AC-D43529538A52}|Tests_Exemple3\\Tests_Exemple3.csproj|c:\\users\\grean\\aideesbevoapp\\extesteunitaire\\tests_exemple3\\testscomptebancaire.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A8BE9422-A9FA-4E18-84AC-D43529538A52}|Tests_Exemple3\\Tests_Exemple3.csproj|solutionrelative:tests_exemple3\\testscomptebancaire.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E3F3408-0F4F-48AD-BE6D-D1A1F1BECC62}|Tests_Exemple1\\Tests_Exemple1.csproj|c:\\users\\grean\\aideesbevoapp\\extesteunitaire\\tests_exemple1\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9E3F3408-0F4F-48AD-BE6D-D1A1F1BECC62}|Tests_Exemple1\\Tests_Exemple1.csproj|solutionrelative:tests_exemple1\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -14,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -22,13 +34,52 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Tests_Exemple44.cs",
+              "DocumentMoniker": "C:\\Users\\grean\\AideESBEVOAPP\\exTesteUnitaire\\Exemple4\\Tests_Exemple44.cs",
+              "RelativeDocumentMoniker": "Exemple4\\Tests_Exemple44.cs",
+              "ToolTip": "C:\\Users\\grean\\AideESBEVOAPP\\exTesteUnitaire\\Exemple4\\Tests_Exemple44.cs",
+              "RelativeToolTip": "Exemple4\\Tests_Exemple44.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBEAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-04T23:49:14.087Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Tests_Exemple4.cs",
+              "DocumentMoniker": "C:\\Users\\grean\\AideESBEVOAPP\\exTesteUnitaire\\Exemple4\\Tests_Exemple4.cs",
+              "RelativeDocumentMoniker": "Exemple4\\Tests_Exemple4.cs",
+              "ToolTip": "C:\\Users\\grean\\AideESBEVOAPP\\exTesteUnitaire\\Exemple4\\Tests_Exemple4.cs",
+              "RelativeToolTip": "Exemple4\\Tests_Exemple4.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-04T23:47:43.245Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TestsCompteBancaire.cs",
+              "DocumentMoniker": "C:\\Users\\grean\\AideESBEVOAPP\\exTesteUnitaire\\Tests_Exemple3\\TestsCompteBancaire.cs",
+              "RelativeDocumentMoniker": "Tests_Exemple3\\TestsCompteBancaire.cs",
+              "ToolTip": "C:\\Users\\grean\\AideESBEVOAPP\\exTesteUnitaire\\Tests_Exemple3\\TestsCompteBancaire.cs",
+              "RelativeToolTip": "Tests_Exemple3\\TestsCompteBancaire.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-04T23:47:06.745Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "UnitTest1.cs",
-              "DocumentMoniker": "D:\\6181512\\ProgApplicationV2\\12-TestUnitaire\\Nouveau dossier\\Exemples\\Tests_Exemple1\\UnitTest1.cs",
+              "DocumentMoniker": "C:\\Users\\grean\\AideESBEVOAPP\\exTesteUnitaire\\Tests_Exemple1\\UnitTest1.cs",
               "RelativeDocumentMoniker": "Tests_Exemple1\\UnitTest1.cs",
-              "ToolTip": "D:\\6181512\\ProgApplicationV2\\12-TestUnitaire\\Nouveau dossier\\Exemples\\Tests_Exemple1\\UnitTest1.cs",
+              "ToolTip": "C:\\Users\\grean\\AideESBEVOAPP\\exTesteUnitaire\\Tests_Exemple1\\UnitTest1.cs",
               "RelativeToolTip": "Tests_Exemple1\\UnitTest1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA0AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-14T15:50:57.078Z",
               "EditorCaption": ""

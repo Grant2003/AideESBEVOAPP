@@ -1,0 +1,44 @@
+[
+  {
+    "Nom": "Science Fiction"
+  },
+  {
+    "Nom": "Action"
+  },
+  {
+    "Nom": "Thriller"
+  },
+  {
+    "Nom": "Crime"
+  },
+  {
+    "Nom": "Drama"
+  },
+  {
+    "Nom": "Adventure"
+  },
+  {
+    "Nom": "Romance"
+  },
+  {
+    "Nom": "War"
+  },
+  {
+    "Nom": "Mystery"
+  },
+  {
+    "Nom": "Fantasy"
+  },
+  {
+    "Nom": "Animation"
+  },
+  {
+    "Nom": "Family"
+  },
+  {
+    "Nom": "Comedy"
+  },
+  {
+    "Nom": "Horror"
+  }
+]

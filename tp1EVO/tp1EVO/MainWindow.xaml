@@ -1,0 +1,162 @@
+﻿ <!--//Par Anthony Grenier 
+//Mat: 2071623-->
+    <Window x:Class="tp1EVO.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:tp1EVO"
+        xmlns:sys="clr-namespace:System;assembly=mscorlib"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="850" Background="LightBlue">
+
+    <Window.Resources>
+        <BooleanToVisibilityConverter x:Key="BoolToVisConverter"/> 
+        <!--STYLE-->
+        <Style TargetType="Button" x:Key="BouttonSupprimerStyle">
+            <Setter Property="Foreground" Value="DarkRed"/>
+            <Setter Property="Background" Value="LightCoral"/>
+            <Setter Property="Width" Value="100"/>
+            <Setter Property="Height" Value="30"/>
+        </Style>
+    </Window.Resources>
+    <Grid>
+        <TabControl Background="{StaticResource WindowBackgroundBrush}">
+            <!--ACTEURS-->
+            <TabItem>
+                <TabItem.Header>
+                    <StackPanel Orientation="Horizontal" VerticalAlignment="Center">
+                        <Image Source="images/actor.png" Width="16" Margin="0,0,5,0"/>
+                        <TextBlock Text="Acteurs" VerticalAlignment="Center" />
+                    </StackPanel>
+                </TabItem.Header>
+                <DockPanel>
+                    <StackPanel DockPanel.Dock="Right" Margin="10,20,0,0">
+                        <Label Width="200">Nom de l'acteur:</Label>
+                        <TextBox x:Name="txtNomActeur" Width="200"></TextBox>
+                        <Button Template="{StaticResource CustomButtonTemplate}"  Click="Click_Ajouter_Act" Width="200" Margin="10,5,10,5">Ajouter</Button>
+                        <Button Template="{StaticResource CustomButtonTemplate}"  x:Name="btnModifierAct" Click="Click_Modifier_Act" Width="200" Margin="10,5,10,5">Modifier</Button>
+                        <Button Style="{StaticResource BouttonSupprimerStyle}" x:Name="btnSupprimerAct" Click="Click_Supprimer_Act" Width="200" Margin="10,5,10,5">Supprimer</Button>
+                    </StackPanel>
+                    <ListView x:Name="ActeursListBox"
+                              ItemsSource="{Binding ListeDActeurs}"
+                              Height="350">
+                        <ListView.View>
+                            <GridView>
+                                <GridViewColumn Header="Name" DisplayMemberBinding="{Binding Nom}" />
+                                <GridViewColumn Header="nombre de Film" DisplayMemberBinding="{Binding nbFilms}"/>
+                            </GridView>
+                        </ListView.View>
+                    </ListView>
+                </DockPanel>
+            </TabItem>
+            <!--CATEGORIES-->
+            <TabItem>
+                <TabItem.Header>
+                    <StackPanel Orientation="Horizontal" VerticalAlignment="Center">
+                        <Image Source="images/categorie.png" Width="16" Margin="0,0,5,0"/>
+                        <TextBlock Text="Categories" VerticalAlignment="Center" />
+                    </StackPanel>
+                </TabItem.Header>
+                <DockPanel>
+                    <StackPanel DockPanel.Dock="Right" Margin="10,20,0,0">
+                        <Label Width="200">Nom de la catégorie:</Label>
+                        <TextBox x:Name="txtNomCategorie" Width="200" ></TextBox>
+                        <Button Template="{StaticResource CustomButtonTemplate}" Click="Click_Ajouter_Cat" Width="200" Margin="10,5,10,5">Ajouter</Button>
+                        <Button Template="{StaticResource CustomButtonTemplate}" x:Name="btnModifierCat" Click="Click_Modifier_Cat" Width="200" Margin="10,5,10,5">Modifier</Button>
+                        <Button Style="{StaticResource BouttonSupprimerStyle}" x:Name="btnSupprimerCat" Click="Click_Supprimer_Cat" Width="200" Margin="10,5,10,5">Supprimer</Button>
+                    </StackPanel>
+                    <ListView x:Name="CategoriesListBox" 
+                              ItemsSource="{Binding ListeCategories}"
+                              Height="350">
+                        <ListView.View>
+                            <GridView>
+                                <GridViewColumn Header="Name" DisplayMemberBinding="{Binding Nom}" />
+                            </GridView>
+                        </ListView.View>
+                    </ListView>
+                </DockPanel>
+            </TabItem>
+            <!--FILMS-->
+
+            <TabItem>
+                <TabItem.Header>
+                    <StackPanel Orientation="Horizontal" VerticalAlignment="Center">
+                        <Image Source="images/movie.png" Width="16" Margin="0,0,5,0"/>
+                        <TextBlock Text="Films" VerticalAlignment="Center" />
+                    </StackPanel>
+                </TabItem.Header>
+                <DockPanel>
+                    <DataGrid x:Name="FilmsDataGrid" AutoGenerateColumns="False" ItemsSource="{Binding ListeDeFilms}"
+                              Width="600" HorizontalAlignment="Left" IsReadOnly="True" RowBackground="White" AlternatingRowBackground="lavender">
+                        <DataGrid.Columns>
+                            <DataGridTextColumn Header="Title" Binding="{Binding Titre}" />
+                            <DataGridTextColumn Header="Year" Binding="{Binding Annee}" />
+                            <DataGridTextColumn Header="Director" Binding="{Binding Realisateur}" />
+                            <DataGridTextColumn Header="Duration" Binding="{Binding Duree}" />
+                            <DataGridTemplateColumn x:Name="DataGridCat" Header="Categories">
+                                <DataGridTemplateColumn.CellTemplate>
+                                    <DataTemplate>
+                                        <ItemsControl ItemsSource="{Binding ListeCategories}">
+                                            <ItemsControl.ItemTemplate>
+                                                <DataTemplate>
+                                                    <TextBlock Text="{Binding Nom}" />
+                                                </DataTemplate>
+                                            </ItemsControl.ItemTemplate>
+                                        </ItemsControl>
+                                    </DataTemplate>
+                                </DataGridTemplateColumn.CellTemplate>
+                            </DataGridTemplateColumn>
+
+                            <DataGridTemplateColumn x:Name="DataGridPost" Header="Poster">
+                                <DataGridTemplateColumn.CellTemplate>
+                                    <DataTemplate>
+                                        <Image Source="{Binding VraiCheminAffiche}" Width="50"/>
+                                    </DataTemplate>
+                                </DataGridTemplateColumn.CellTemplate>
+                            </DataGridTemplateColumn>
+                            <DataGridTextColumn x:Name="DataGridSyn" Header="Synopsis" Binding="{Binding Synopsis}" />
+                            <DataGridTemplateColumn x:Name="DataGridAct" Header="Actors">
+                                <DataGridTemplateColumn.CellTemplate>
+                                    <DataTemplate>
+                                        <ItemsControl ItemsSource="{Binding ListeActeurs}">
+                                            <ItemsControl.ItemTemplate>
+                                                <DataTemplate>
+                                                    <TextBlock Text="{Binding Nom}" />
+                                                </DataTemplate>
+                                            </ItemsControl.ItemTemplate>
+                                        </ItemsControl>
+                                    </DataTemplate>
+                                </DataGridTemplateColumn.CellTemplate>
+                            </DataGridTemplateColumn>
+                        </DataGrid.Columns>
+                    </DataGrid>
+                    <StackPanel>
+                        <CheckBox x:Name="CheckBoxCat" Content="Categories" IsChecked="False"
+                                  Checked="CheckBoxCat_Checked" Unchecked="CheckBoxCat_Unchecked"/>
+                        <CheckBox x:Name="CheckBoxPost" Content="Poster" IsChecked="False"
+                                  Checked="CheckBoxPost_Checked" Unchecked="CheckBoxPost_Unchecked"/>
+                        <CheckBox x:Name="CheckBoxSyn" Content="Synopsis" IsChecked="False"
+                                  Checked="CheckBoxSyn_Checked" Unchecked="CheckBoxSyn_Unchecked"/>
+                        <CheckBox x:Name="CheckBoxAct" Content="Acteurs" IsChecked="False"
+                                  Checked="CheckBoxAct_Checked" Unchecked="CheckBoxAct_Unchecked"/>
+
+                        <Button Template="{StaticResource CustomButtonTemplate}" Click="Click_Ajouter_Film" Width="200" Margin="10,5,10,5">Ajouter</Button>
+                        <Button Template="{StaticResource CustomButtonTemplate}" x:Name="btnModifierFilm" Click="Click_Modifier_Film" Width="200" Margin="10,5,10,5">Modifier</Button>
+                        <Button Style="{StaticResource BouttonSupprimerStyle}" x:Name="btnSupprimerFilm" Click="Click_Supprimer_Film" Width="200" Margin="10,5,10,5">Supprimer</Button>
+                    </StackPanel>
+                </DockPanel>
+            </TabItem>
+            <!--À PROPOS-->
+            <TabItem>
+                <TabItem.Header>
+                    <StackPanel Orientation="Horizontal" VerticalAlignment="Center">
+                        <Image Source="images/propos.png" Width="16" Margin="0,0,5,0"/>
+                        <TextBlock Text="À Propos" VerticalAlignment="Center" />
+                    </StackPanel>
+                </TabItem.Header>
+                <Button Template="{StaticResource CustomButtonTemplate}" Width="200" Click="Click_Propos">A propos</Button>
+            </TabItem>
+        </TabControl>
+    </Grid>
+</Window>

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("LabRefacto")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+99ef812e31e5e098e97f4593a1192e9eb66c3e25")]
 [assembly: System.Reflection.AssemblyProductAttribute("LabRefacto")]
 [assembly: System.Reflection.AssemblyTitleAttribute("LabRefacto")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

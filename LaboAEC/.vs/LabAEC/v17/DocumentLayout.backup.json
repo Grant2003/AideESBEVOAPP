@@ -7,24 +7,24 @@
       "RelativeMoniker": "D:0:0:{4CE28E23-5D19-4E38-BC5E-D8D556B338BE}|LabAEC\\LabAEC.csproj|solutionrelative:labaec\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4CE28E23-5D19-4E38-BC5E-D8D556B338BE}|LabAEC\\LabAEC.csproj|c:\\users\\2071623\\onedrive - cegep de saint-jerome\\evoapplications\\labaec\\labaec\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{4CE28E23-5D19-4E38-BC5E-D8D556B338BE}|LabAEC\\LabAEC.csproj|solutionrelative:labaec\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{E68D47C9-5543-4B25-82F4-53BD71ED9B23}|BLL\\BLL.csproj|C:\\Users\\2071623\\OneDrive - CEGEP de Saint-JEROME\\EvoApplications\\LabAEC\\bll\\lespays.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E68D47C9-5543-4B25-82F4-53BD71ED9B23}|BLL\\BLL.csproj|solutionrelative:bll\\lespays.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E68D47C9-5543-4B25-82F4-53BD71ED9B23}|BLL\\BLL.csproj|C:\\Users\\2071623\\OneDrive - CEGEP de Saint-JEROME\\EvoApplications\\LabAEC\\bll\\films.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E68D47C9-5543-4B25-82F4-53BD71ED9B23}|BLL\\BLL.csproj|solutionrelative:bll\\films.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E68D47C9-5543-4B25-82F4-53BD71ED9B23}|BLL\\BLL.csproj|C:\\Users\\2071623\\OneDrive - CEGEP de Saint-JEROME\\EvoApplications\\LabAEC\\bll\\lespays.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E68D47C9-5543-4B25-82F4-53BD71ED9B23}|BLL\\BLL.csproj|solutionrelative:bll\\lespays.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E68D47C9-5543-4B25-82F4-53BD71ED9B23}|BLL\\BLL.csproj|C:\\Users\\2071623\\OneDrive - CEGEP de Saint-JEROME\\EvoApplications\\LabAEC\\bll\\film.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E68D47C9-5543-4B25-82F4-53BD71ED9B23}|BLL\\BLL.csproj|solutionrelative:bll\\film.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4CE28E23-5D19-4E38-BC5E-D8D556B338BE}|LabAEC\\LabAEC.csproj|c:\\users\\2071623\\onedrive - cegep de saint-jerome\\evoapplications\\labaec\\labaec\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{4CE28E23-5D19-4E38-BC5E-D8D556B338BE}|LabAEC\\LabAEC.csproj|solutionrelative:labaec\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6A630E4E-7A03-4D83-B643-BA3E46A26A0C}|DAL\\DAL.csproj|C:\\Users\\2071623\\OneDrive - CEGEP de Saint-JEROME\\EvoApplications\\LabAEC\\dal\\accessdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6A630E4E-7A03-4D83-B643-BA3E46A26A0C}|DAL\\DAL.csproj|solutionrelative:dal\\accessdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E68D47C9-5543-4B25-82F4-53BD71ED9B23}|BLL\\BLL.csproj|C:\\Users\\2071623\\OneDrive - CEGEP de Saint-JEROME\\EvoApplications\\LabAEC\\bll\\film.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E68D47C9-5543-4B25-82F4-53BD71ED9B23}|BLL\\BLL.csproj|solutionrelative:bll\\film.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E68D47C9-5543-4B25-82F4-53BD71ED9B23}|BLL\\BLL.csproj|C:\\Users\\2071623\\OneDrive - CEGEP de Saint-JEROME\\EvoApplications\\LabAEC\\bll\\pays.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -68,13 +68,14 @@
               "RelativeDocumentMoniker": "BLL\\Films.cs",
               "ToolTip": "C:\\Users\\2071623\\OneDrive - CEGEP de Saint-JEROME\\EvoApplications\\LabAEC\\BLL\\Films.cs",
               "RelativeToolTip": "BLL\\Films.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAAACMAAAAiAAAAAAAAAA==",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAABYAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-11T16:59:38.099Z"
+              "WhenOpened": "2025-04-11T16:59:38.099Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "LesPays.cs",
               "DocumentMoniker": "C:\\Users\\2071623\\OneDrive - CEGEP de Saint-JEROME\\EvoApplications\\LabAEC\\BLL\\LesPays.cs",
               "RelativeDocumentMoniker": "BLL\\LesPays.cs",
@@ -82,11 +83,12 @@
               "RelativeToolTip": "BLL\\LesPays.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-11T16:52:56.204Z"
+              "WhenOpened": "2025-04-11T16:52:56.204Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 3,
               "Title": "Film.cs",
               "DocumentMoniker": "C:\\Users\\2071623\\OneDrive - CEGEP de Saint-JEROME\\EvoApplications\\LabAEC\\BLL\\Film.cs",
               "RelativeDocumentMoniker": "BLL\\Film.cs",
@@ -94,11 +96,12 @@
               "RelativeToolTip": "BLL\\Film.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-11T16:46:53.716Z"
+              "WhenOpened": "2025-04-11T16:46:53.716Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "AccessDB.cs",
               "DocumentMoniker": "C:\\Users\\2071623\\OneDrive - CEGEP de Saint-JEROME\\EvoApplications\\LabAEC\\DAL\\AccessDB.cs",
               "RelativeDocumentMoniker": "DAL\\AccessDB.cs",
@@ -122,7 +125,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "C:\\Users\\2071623\\OneDrive - CEGEP de Saint-JEROME\\EvoApplications\\LabAEC\\LabAEC\\MainWindow.xaml",
               "RelativeDocumentMoniker": "LabAEC\\MainWindow.xaml",
@@ -140,7 +143,7 @@
               "RelativeDocumentMoniker": "LabAEC\\MainWindow.xaml.cs",
               "ToolTip": "C:\\Users\\2071623\\OneDrive - CEGEP de Saint-JEROME\\EvoApplications\\LabAEC\\LabAEC\\MainWindow.xaml.cs",
               "RelativeToolTip": "LabAEC\\MainWindow.xaml.cs",
-              "ViewState": "AgIAACgAAAAAAAAAAAAcwDgAAAAYAAAAAAAAAA==",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAwwEMAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-11T16:28:08.594Z",
               "EditorCaption": ""

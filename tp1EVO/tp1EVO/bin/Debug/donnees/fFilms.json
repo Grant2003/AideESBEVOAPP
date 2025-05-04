@@ -1,0 +1,391 @@
+[
+  {
+    "Titre": "Inception",
+    "Annee": 2010,
+    "Realisateur": "Christopher Nolan",
+    "Duree": 148,
+    "ListeCategories": [
+      "Science Fiction",
+      "Action",
+      "Thriller"
+    ],
+    "CheminAffiche": "affiches//inception.jpg",
+    "Synopsis": "Un voleur qui s'infiltre dans les rêves pour voler des secrets doit réaliser un dernier coup.",
+    "ListeActeurs": [
+      "Leonardo DiCaprio",
+      "Joseph Gordon-Levitt",
+      "Ellen Page",
+      "Tom Hardy",
+      "Ken Watanabe"
+    ]
+  },
+  {
+    "Titre": "The Dark Knight",
+    "Annee": 2008,
+    "Realisateur": "Christopher Nolan",
+    "Duree": 152,
+    "ListeCategories": [
+      "Action",
+      "Crime",
+      "Drama"
+    ],
+    "CheminAffiche": "affiches//dark_knight.jpg",
+    "Synopsis": "Batman doit affronter le Joker, un criminel insaisissable.",
+    "ListeActeurs": [
+      "Christian Bale",
+      "Heath Ledger",
+      "Aaron Eckhart",
+      "Michael Caine",
+      "Maggie Gyllenhaal"
+    ]
+  },
+  {
+    "Titre": "Pulp Fiction",
+    "Annee": 1994,
+    "Realisateur": "Quentin Tarantino",
+    "Duree": 154,
+    "ListeCategories": [
+      "Crime",
+      "Drama"
+    ],
+    "CheminAffiche": "affiches//pulp_fiction.jpg",
+    "Synopsis": "Plusieurs histoires entrelacées dans le milieu criminel de Los Angeles.",
+    "ListeActeurs": [
+      "John Travolta",
+      "Samuel L. Jackson",
+      "Uma Thurman",
+      "Bruce Willis",
+      "Ving Rhames"
+    ]
+  },
+  {
+    "Titre": "The Godfather",
+    "Annee": 1972,
+    "Realisateur": "Francis Ford Coppola",
+    "Duree": 175,
+    "ListeCategories": [
+      "Crime",
+      "Drama"
+    ],
+    "CheminAffiche": "affiches//godfather.jpg",
+    "Synopsis": "La vie de la famille Corleone, une des familles mafieuses les plus puissantes.",
+    "ListeActeurs": [
+      "Marlon Brando",
+      "Al Pacino",
+      "James Caan",
+      "Richard S. Castellano",
+      "Robert Duvall"
+    ]
+  },
+  {
+    "Titre": "The Shawshank Redemption",
+    "Annee": 1994,
+    "Realisateur": "Frank Darabont",
+    "Duree": 142,
+    "ListeCategories": [
+      "Drama"
+    ],
+    "CheminAffiche": "affiches//shawshank_redemption.jpg",
+    "Synopsis": "L'histoire d'un homme injustement accusé de meurtre et de son temps en prison.",
+    "ListeActeurs": [
+      "Tim Robbins",
+      "Morgan Freeman",
+      "Bob Gunton",
+      "William Sadler",
+      "Clancy Brown"
+    ]
+  },
+  {
+    "Titre": "The Matrix",
+    "Annee": 1999,
+    "Realisateur": "The Wachowskis",
+    "Duree": 136,
+    "ListeCategories": [
+      "Science Fiction",
+      "Action"
+    ],
+    "CheminAffiche": "affiches//matrix.jpg",
+    "Synopsis": "Un hacker découvre la vérité sur sa réalité et sa destinée.",
+    "ListeActeurs": [
+      "Keanu Reeves",
+      "Laurence Fishburne",
+      "Carrie-Anne Moss",
+      "Hugo Weaving",
+      "Joe Pantoliano"
+    ]
+  },
+  {
+    "Titre": "Forrest Gump",
+    "Annee": 1994,
+    "Realisateur": "Robert Zemeckis",
+    "Duree": 142,
+    "ListeCategories": [
+      "Drama",
+      "Romance"
+    ],
+    "CheminAffiche": "affiches//forrest_gump.jpg",
+    "Synopsis": "L'histoire extraordinaire d'un homme ordinaire.",
+    "ListeActeurs": [
+      "Tom Hanks",
+      "Robin Wright",
+      "Gary Sinise",
+      "Mykelti Williamson",
+      "Sally Field"
+    ]
+  },
+  {
+    "Titre": "Interstellar",
+    "Annee": 2014,
+    "Realisateur": "Christopher Nolan",
+    "Duree": 169,
+    "ListeCategories": [
+      "Science Fiction",
+      "Adventure",
+      "Drama"
+    ],
+    "CheminAffiche": "affiches//interstellar.jpg",
+    "Synopsis": "Un groupe d'astronautes voyage à travers un trou de ver à la recherche d'une nouvelle planète habitable.",
+    "ListeActeurs": [
+      "Matthew McConaughey",
+      "Anne Hathaway",
+      "Jessica Chastain",
+      "Michael Caine",
+      "Matt Damon"
+    ]
+  },
+  {
+    "Titre": "Fight Club",
+    "Annee": 1999,
+    "Realisateur": "David Fincher",
+    "Duree": 139,
+    "ListeCategories": [
+      "Drama",
+      "Thriller"
+    ],
+    "CheminAffiche": "affiches//fight_club.jpg",
+    "Synopsis": "Un homme rencontre un vendeur de savon mystérieux et forme un club clandestin.",
+    "ListeActeurs": [
+      "Brad Pitt",
+      "Edward Norton",
+      "Helena Bonham Carter",
+      "Meat Loaf",
+      "Jared Leto"
+    ]
+  },
+  {
+    "Titre": "The Silence of the Lambs",
+    "Annee": 1991,
+    "Realisateur": "Jonathan Demme",
+    "Duree": 118,
+    "ListeCategories": [
+      "Horror",
+      "Thriller"
+    ],
+    "CheminAffiche": "affiches//silence_of_lambs.jpg",
+    "Synopsis": "Une jeune agent du FBI doit solliciter l'aide d'un brillant psychopathe pour attraper un autre tueur en série.",
+    "ListeActeurs": [
+      "Jodie Foster",
+      "Anthony Hopkins",
+      "Scott Glenn",
+      "Ted Levine",
+      "Anthony Heald"
+    ]
+  },
+  {
+    "Titre": "Gladiator",
+    "Annee": 2000,
+    "Realisateur": "Ridley Scott",
+    "Duree": 155,
+    "ListeCategories": [
+      "Action",
+      "Drama",
+      "Adventure"
+    ],
+    "CheminAffiche": "affiches//gladiator.jpg",
+    "Synopsis": "Un général romain déchu devient gladiateur pour venger sa famille.",
+    "ListeActeurs": [
+      "Russell Crowe",
+      "Joaquin Phoenix",
+      "Connie Nielsen",
+      "Oliver Reed",
+      "Djimon Hounsou"
+    ]
+  },
+  {
+    "Titre": "Saving Private Ryan",
+    "Annee": 1998,
+    "Realisateur": "Steven Spielberg",
+    "Duree": 169,
+    "ListeCategories": [
+      "Drama",
+      "War"
+    ],
+    "CheminAffiche": "affiches//saving_private_ryan.jpg",
+    "Synopsis": "Un groupe de soldats est envoyé derrière les lignes ennemies pour sauver un soldat.",
+    "ListeActeurs": [
+      "Tom Hanks",
+      "Tom Sizemore",
+      "Edward Burns",
+      "Barry Pepper",
+      "Adam Goldberg"
+    ]
+  },
+  {
+    "Titre": "Se7en",
+    "Annee": 1995,
+    "Realisateur": "David Fincher",
+    "Duree": 127,
+    "ListeCategories": [
+      "Crime",
+      "Drama",
+      "Mystery"
+    ],
+    "CheminAffiche": "affiches//se7en.jpg",
+    "Synopsis": "Deux détectives traquent un tueur en série qui utilise les sept péchés capitaux comme modus operandi.",
+    "ListeActeurs": [
+      "Brad Pitt",
+      "Morgan Freeman",
+      "Gwyneth Paltrow",
+      "Kevin Spacey",
+      "R. Lee Ermey"
+    ]
+  },
+  {
+    "Titre": "The Lord of the Rings",
+    "Annee": 2001,
+    "Realisateur": "Peter Jackson",
+    "Duree": 178,
+    "ListeCategories": [
+      "Fantasy",
+      "Adventure",
+      "Action"
+    ],
+    "CheminAffiche": "affiches//lotr_fellowship.jpg",
+    "Synopsis": "Un jeune hobbit et ses compagnons entreprennent une quête pour détruire un anneau puissant.",
+    "ListeActeurs": [
+      "Elijah Wood",
+      "Ian McKellen",
+      "Viggo Mortensen",
+      "Orlando Bloom",
+      "Sean Astin"
+    ]
+  },
+  {
+    "Titre": "Star Wars",
+    "Annee": 1977,
+    "Realisateur": "George Lucas",
+    "Duree": 121,
+    "ListeCategories": [
+      "Science Fiction",
+      "Adventure"
+    ],
+    "CheminAffiche": "affiches//star_wars_iv.jpg",
+    "Synopsis": "Un fermier se joint à la rébellion pour détruire l'Étoile de la Mort.",
+    "ListeActeurs": [
+      "Mark Hamill",
+      "Harrison Ford",
+      "Carrie Fisher",
+      "Alec Guinness",
+      "Peter Cushing"
+    ]
+  },
+  {
+    "Titre": "The Avengers",
+    "Annee": 2012,
+    "Realisateur": "Joss Whedon",
+    "Duree": 143,
+    "ListeCategories": [
+      "Action",
+      "Adventure",
+      "Science Fiction"
+    ],
+    "CheminAffiche": "affiches//avengers.jpg",
+    "Synopsis": "Des super-héros doivent s'unir pour sauver le monde d'une menace extraterrestre.",
+    "ListeActeurs": [
+      "Robert Downey Jr.",
+      "Chris Evans",
+      "Mark Ruffalo",
+      "Chris Hemsworth",
+      "Scarlett Johansson"
+    ]
+  },
+  {
+    "Titre": "Inglourious Basterds",
+    "Annee": 2009,
+    "Realisateur": "Quentin Tarantino",
+    "Duree": 153,
+    "ListeCategories": [
+      "War",
+      "Drama",
+      "Thriller"
+    ],
+    "CheminAffiche": "affiches//inglourious_basterds.jpg",
+    "Synopsis": "Un groupe de soldats américains se bat contre les nazis pendant la Seconde Guerre mondiale.",
+    "ListeActeurs": [
+      "Brad Pitt",
+      "Melanie Laurent",
+      "Christoph Waltz",
+      "Eli Roth",
+      "Michael Fassbender"
+    ]
+  },
+  {
+    "Titre": "Toy Story",
+    "Annee": 1995,
+    "Realisateur": "John Lasseter",
+    "Duree": 81,
+    "ListeCategories": [
+      "Animation",
+      "Family",
+      "Comedy"
+    ],
+    "CheminAffiche": "affiches//toy_story.jpg",
+    "Synopsis": "Les jouets prennent vie lorsqu'ils sont seuls et font face à des aventures.",
+    "ListeActeurs": [
+      "Tom Hanks",
+      "Tim Allen",
+      "Don Rickles",
+      "Jim Varney",
+      "Wallace Shawn"
+    ]
+  },
+  {
+    "Titre": "The Lion King",
+    "Annee": 1994,
+    "Realisateur": "Roger Allers, Rob Minkoff",
+    "Duree": 88,
+    "ListeCategories": [
+      "Animation",
+      "Adventure",
+      "Drama"
+    ],
+    "CheminAffiche": "affiches//lion_king.jpg",
+    "Synopsis": "Un jeune lion doit retrouver son destin et devenir roi.",
+    "ListeActeurs": [
+      "Matthew Broderick",
+      "James Earl Jones",
+      "Jeremy Irons",
+      "Rowan Atkinson",
+      "Moira Kelly"
+    ]
+  },
+  {
+    "Titre": "Titanic",
+    "Annee": 1997,
+    "Realisateur": "James Cameron",
+    "Duree": 195,
+    "ListeCategories": [
+      "Drama",
+      "Romance"
+    ],
+    "CheminAffiche": "affiches//titanic.jpg",
+    "Synopsis": "Une romance tragique à bord du RMS Titanic.",
+    "ListeActeurs": [
+      "Leonardo DiCaprio",
+      "Kate Winslet",
+      "Billy Zane",
+      "Kathy Bates",
+      "Frances Fisher"
+    ]
+  }
+]

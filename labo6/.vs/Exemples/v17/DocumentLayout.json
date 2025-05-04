@@ -1,21 +1,29 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\grean\\Exemples\\",
+  "WorkspaceRootPath": "C:\\Users\\grean\\AideESBEVOAPP\\labo6\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{56AC6E06-50B1-4ED4-A0FF-064B9CD38C0C}|WpfApp1\\WpfApp1.csproj|c:\\users\\grean\\exemples\\wpfapp1\\ucmodifousupppart.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{56AC6E06-50B1-4ED4-A0FF-064B9CD38C0C}|WpfApp1\\WpfApp1.csproj|solutionrelative:wpfapp1\\ucmodifousupppart.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{56AC6E06-50B1-4ED4-A0FF-064B9CD38C0C}|WpfApp1\\WpfApp1.csproj|c:\\users\\grean\\aideesbevoapp\\labo6\\wpfapp1\\uciconpart.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{56AC6E06-50B1-4ED4-A0FF-064B9CD38C0C}|WpfApp1\\WpfApp1.csproj|solutionrelative:wpfapp1\\uciconpart.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{56AC6E06-50B1-4ED4-A0FF-064B9CD38C0C}|WpfApp1\\WpfApp1.csproj|C:\\Users\\grean\\Exemples\\wpfapp1\\ucajoutpart.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{56AC6E06-50B1-4ED4-A0FF-064B9CD38C0C}|WpfApp1\\WpfApp1.csproj|solutionrelative:wpfapp1\\ucajoutpart.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{56AC6E06-50B1-4ED4-A0FF-064B9CD38C0C}|WpfApp1\\WpfApp1.csproj|C:\\Users\\grean\\Exemples\\wpfapp1\\ucgestionpart.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{56AC6E06-50B1-4ED4-A0FF-064B9CD38C0C}|WpfApp1\\WpfApp1.csproj|C:\\Users\\grean\\AideESBEVOAPP\\labo6\\wpfapp1\\ucgestionpart.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{56AC6E06-50B1-4ED4-A0FF-064B9CD38C0C}|WpfApp1\\WpfApp1.csproj|solutionrelative:wpfapp1\\ucgestionpart.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{56AC6E06-50B1-4ED4-A0FF-064B9CD38C0C}|WpfApp1\\WpfApp1.csproj|C:\\Users\\grean\\Exemples\\wpfapp1\\ucmodifousupppart.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{56AC6E06-50B1-4ED4-A0FF-064B9CD38C0C}|WpfApp1\\WpfApp1.csproj|c:\\users\\grean\\aideesbevoapp\\labo6\\wpfapp1\\ucajoutpart.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{56AC6E06-50B1-4ED4-A0FF-064B9CD38C0C}|WpfApp1\\WpfApp1.csproj|solutionrelative:wpfapp1\\ucajoutpart.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56AC6E06-50B1-4ED4-A0FF-064B9CD38C0C}|WpfApp1\\WpfApp1.csproj|c:\\users\\grean\\aideesbevoapp\\labo6\\wpfapp1\\ucmodifousupppart.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56AC6E06-50B1-4ED4-A0FF-064B9CD38C0C}|WpfApp1\\WpfApp1.csproj|solutionrelative:wpfapp1\\ucmodifousupppart.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56AC6E06-50B1-4ED4-A0FF-064B9CD38C0C}|WpfApp1\\WpfApp1.csproj|C:\\Users\\grean\\AideESBEVOAPP\\labo6\\wpfapp1\\ucajoutpart.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56AC6E06-50B1-4ED4-A0FF-064B9CD38C0C}|WpfApp1\\WpfApp1.csproj|solutionrelative:wpfapp1\\ucajoutpart.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56AC6E06-50B1-4ED4-A0FF-064B9CD38C0C}|WpfApp1\\WpfApp1.csproj|C:\\Users\\grean\\AideESBEVOAPP\\labo6\\wpfapp1\\ucmodifousupppart.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{56AC6E06-50B1-4ED4-A0FF-064B9CD38C0C}|WpfApp1\\WpfApp1.csproj|solutionrelative:wpfapp1\\ucmodifousupppart.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     }
   ],
@@ -26,15 +34,47 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
+              "Title": "UCIconPart.xaml",
+              "DocumentMoniker": "C:\\Users\\grean\\AideESBEVOAPP\\labo6\\WpfApp1\\UCIconPart.xaml",
+              "RelativeDocumentMoniker": "WpfApp1\\UCIconPart.xaml",
+              "ToolTip": "C:\\Users\\grean\\AideESBEVOAPP\\labo6\\WpfApp1\\UCIconPart.xaml",
+              "RelativeToolTip": "WpfApp1\\UCIconPart.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-04T23:54:33.719Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UCAjoutPart.xaml",
+              "DocumentMoniker": "C:\\Users\\grean\\AideESBEVOAPP\\labo6\\WpfApp1\\UCAjoutPart.xaml",
+              "RelativeDocumentMoniker": "WpfApp1\\UCAjoutPart.xaml",
+              "ToolTip": "C:\\Users\\grean\\AideESBEVOAPP\\labo6\\WpfApp1\\UCAjoutPart.xaml",
+              "RelativeToolTip": "WpfApp1\\UCAjoutPart.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-04T23:54:30.907Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "UCAjoutPart.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\grean\\Exemples\\WpfApp1\\UCAjoutPart.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\grean\\AideESBEVOAPP\\labo6\\WpfApp1\\UCAjoutPart.xaml.cs",
               "RelativeDocumentMoniker": "WpfApp1\\UCAjoutPart.xaml.cs",
-              "ToolTip": "C:\\Users\\grean\\Exemples\\WpfApp1\\UCAjoutPart.xaml.cs",
+              "ToolTip": "C:\\Users\\grean\\AideESBEVOAPP\\labo6\\WpfApp1\\UCAjoutPart.xaml.cs",
               "RelativeToolTip": "WpfApp1\\UCAjoutPart.xaml.cs",
               "ViewState": "AgIAACQAAAAAAAAAAAAYwCcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -42,11 +82,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "UCModifOuSuppPart.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\grean\\Exemples\\WpfApp1\\UCModifOuSuppPart.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\grean\\AideESBEVOAPP\\labo6\\WpfApp1\\UCModifOuSuppPart.xaml.cs",
               "RelativeDocumentMoniker": "WpfApp1\\UCModifOuSuppPart.xaml.cs",
-              "ToolTip": "C:\\Users\\grean\\Exemples\\WpfApp1\\UCModifOuSuppPart.xaml.cs",
+              "ToolTip": "C:\\Users\\grean\\AideESBEVOAPP\\labo6\\WpfApp1\\UCModifOuSuppPart.xaml.cs",
               "RelativeToolTip": "WpfApp1\\UCModifOuSuppPart.xaml.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAFwAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -55,25 +95,26 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "UCModifOuSuppPart.xaml",
-              "DocumentMoniker": "C:\\Users\\grean\\Exemples\\WpfApp1\\UCModifOuSuppPart.xaml",
+              "DocumentMoniker": "C:\\Users\\grean\\AideESBEVOAPP\\labo6\\WpfApp1\\UCModifOuSuppPart.xaml",
               "RelativeDocumentMoniker": "WpfApp1\\UCModifOuSuppPart.xaml",
-              "ToolTip": "C:\\Users\\grean\\Exemples\\WpfApp1\\UCModifOuSuppPart.xaml",
+              "ToolTip": "C:\\Users\\grean\\AideESBEVOAPP\\labo6\\WpfApp1\\UCModifOuSuppPart.xaml",
               "RelativeToolTip": "WpfApp1\\UCModifOuSuppPart.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2025-03-31T20:45:21.017Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "UCGestionPart.xaml",
-              "DocumentMoniker": "C:\\Users\\grean\\Exemples\\WpfApp1\\UCGestionPart.xaml",
+              "DocumentMoniker": "C:\\Users\\grean\\AideESBEVOAPP\\labo6\\WpfApp1\\UCGestionPart.xaml",
               "RelativeDocumentMoniker": "WpfApp1\\UCGestionPart.xaml",
-              "ToolTip": "C:\\Users\\grean\\Exemples\\WpfApp1\\UCGestionPart.xaml",
+              "ToolTip": "C:\\Users\\grean\\AideESBEVOAPP\\labo6\\WpfApp1\\UCGestionPart.xaml",
               "RelativeToolTip": "WpfApp1\\UCGestionPart.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-03-31T20:45:19.227Z"
+              "WhenOpened": "2025-03-31T20:45:19.227Z",
+              "EditorCaption": ""
             }
           ]
         }

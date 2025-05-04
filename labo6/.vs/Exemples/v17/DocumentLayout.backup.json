@@ -7,15 +7,15 @@
       "RelativeMoniker": "D:0:0:{56AC6E06-50B1-4ED4-A0FF-064B9CD38C0C}|WpfApp1\\WpfApp1.csproj|solutionrelative:wpfapp1\\ucmodifousupppart.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{56AC6E06-50B1-4ED4-A0FF-064B9CD38C0C}|WpfApp1\\WpfApp1.csproj|c:\\users\\grean\\exemples\\wpfapp1\\ucajoutpart.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{56AC6E06-50B1-4ED4-A0FF-064B9CD38C0C}|WpfApp1\\WpfApp1.csproj|C:\\Users\\grean\\Exemples\\wpfapp1\\ucajoutpart.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{56AC6E06-50B1-4ED4-A0FF-064B9CD38C0C}|WpfApp1\\WpfApp1.csproj|solutionrelative:wpfapp1\\ucajoutpart.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{56AC6E06-50B1-4ED4-A0FF-064B9CD38C0C}|WpfApp1\\WpfApp1.csproj|c:\\users\\grean\\exemples\\wpfapp1\\ucgestionpart.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{56AC6E06-50B1-4ED4-A0FF-064B9CD38C0C}|WpfApp1\\WpfApp1.csproj|C:\\Users\\grean\\Exemples\\wpfapp1\\ucgestionpart.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{56AC6E06-50B1-4ED4-A0FF-064B9CD38C0C}|WpfApp1\\WpfApp1.csproj|solutionrelative:wpfapp1\\ucgestionpart.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{56AC6E06-50B1-4ED4-A0FF-064B9CD38C0C}|WpfApp1\\WpfApp1.csproj|c:\\users\\grean\\exemples\\wpfapp1\\ucmodifousupppart.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{56AC6E06-50B1-4ED4-A0FF-064B9CD38C0C}|WpfApp1\\WpfApp1.csproj|C:\\Users\\grean\\Exemples\\wpfapp1\\ucmodifousupppart.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{56AC6E06-50B1-4ED4-A0FF-064B9CD38C0C}|WpfApp1\\WpfApp1.csproj|solutionrelative:wpfapp1\\ucmodifousupppart.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     }
   ],
@@ -38,8 +38,7 @@
               "RelativeToolTip": "WpfApp1\\UCAjoutPart.xaml.cs",
               "ViewState": "AgIAACQAAAAAAAAAAAAYwCcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-31T20:50:10.67Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-31T20:50:10.67Z"
             },
             {
               "$type": "Document",
@@ -49,7 +48,7 @@
               "RelativeDocumentMoniker": "WpfApp1\\UCModifOuSuppPart.xaml.cs",
               "ToolTip": "C:\\Users\\grean\\Exemples\\WpfApp1\\UCModifOuSuppPart.xaml.cs",
               "RelativeToolTip": "WpfApp1\\UCModifOuSuppPart.xaml.cs",
-              "ViewState": "AgIAAEgAAAAAAAAAAAAqwFwAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFwAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-31T20:45:23.726Z",
               "EditorCaption": ""
@@ -63,8 +62,7 @@
               "ToolTip": "C:\\Users\\grean\\Exemples\\WpfApp1\\UCModifOuSuppPart.xaml",
               "RelativeToolTip": "WpfApp1\\UCModifOuSuppPart.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-03-31T20:45:21.017Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-31T20:45:21.017Z"
             },
             {
               "$type": "Document",
@@ -75,8 +73,7 @@
               "ToolTip": "C:\\Users\\grean\\Exemples\\WpfApp1\\UCGestionPart.xaml",
               "RelativeToolTip": "WpfApp1\\UCGestionPart.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-03-31T20:45:19.227Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-31T20:45:19.227Z"
             }
           ]
         }

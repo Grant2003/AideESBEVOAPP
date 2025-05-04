@@ -1001,24 +1001,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\6181512\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\grean\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\6181512\\ProgApplicationV2\\12-TestUnitaire\\Nouveau dossier\\Exemples\\Tests_Exemple1\\Tests_Exemple1.csproj",
+      "projectUniqueName": "C:\\Users\\grean\\AideESBEVOAPP\\exTesteUnitaire\\Tests_Exemple1\\Tests_Exemple1.csproj",
       "projectName": "Tests_Exemple1",
-      "projectPath": "D:\\6181512\\ProgApplicationV2\\12-TestUnitaire\\Nouveau dossier\\Exemples\\Tests_Exemple1\\Tests_Exemple1.csproj",
-      "packagesPath": "C:\\Users\\6181512\\.nuget\\packages\\",
-      "outputPath": "D:\\6181512\\ProgApplicationV2\\12-TestUnitaire\\Nouveau dossier\\Exemples\\Tests_Exemple1\\obj\\",
+      "projectPath": "C:\\Users\\grean\\AideESBEVOAPP\\exTesteUnitaire\\Tests_Exemple1\\Tests_Exemple1.csproj",
+      "packagesPath": "C:\\Users\\grean\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\grean\\AideESBEVOAPP\\exTesteUnitaire\\Tests_Exemple1\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\6181512\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\grean\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -1032,8 +1027,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "D:\\6181512\\ProgApplicationV2\\12-TestUnitaire\\Nouveau dossier\\Exemples\\Exemple1\\Exemple1.csproj": {
-              "projectPath": "D:\\6181512\\ProgApplicationV2\\12-TestUnitaire\\Nouveau dossier\\Exemples\\Exemple1\\Exemple1.csproj"
+            "C:\\Users\\grean\\AideESBEVOAPP\\exTesteUnitaire\\Exemple1\\Exemple1.csproj": {
+              "projectPath": "C:\\Users\\grean\\AideESBEVOAPP\\exTesteUnitaire\\Exemple1\\Exemple1.csproj"
             }
           }
         }
@@ -1047,8 +1042,7 @@
         "enableAudit": "true",
         "auditLevel": "low",
         "auditMode": "direct"
-      },
-      "SdkAnalysisLevel": "9.0.100"
+      }
     },
     "frameworks": {
       "net8.0": {
@@ -1091,7 +1085,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

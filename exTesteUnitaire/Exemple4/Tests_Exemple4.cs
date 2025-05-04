@@ -25,7 +25,10 @@ namespace Exemple4
 
             button.RaiseEvent(new System.Windows.RoutedEventArgs(Button.ClickEvent));
             // Assert
+            Assert.That(button.Content, Is.EqualTo("Ligma"));
+
             Assert.That(button.Content, Is.EqualTo("Vous m'avez cliqué!"));
+
         }
     }
 }
